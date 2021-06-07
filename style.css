@@ -1,0 +1,105 @@
+.main-title {
+  text-align: center;
+  font-family: "verdana", sans-serif;
+  text-decoration: underline;
+}
+
+.input-section {
+  border: 3px solid black;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.value-headers {
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+  font-family: "palatino", serif;
+}
+
+#result-section {
+  border: 3px solid black;
+  width: 50%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+#main-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#a-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#b-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#h-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#area-calculate {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-family: "calibri", sans-serif;
+  border: 3px outset steelblue;
+  border-radius: 4px;
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+#area-calculate:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+#recalculate {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-family: 'calibri', sans-serif;
+  border: 3px outset steelblue;
+  border-radius: 4px;
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+#recalculate:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+
+#area-result {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+#result {
+  font-family: "palatino", serif;
+  font-size: 40px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription" content="Webpage that calculates the area of a trapezoid">
+    <meta name="keywords" content="VAS, website">
+    <meta name="author" content="J. Kreit">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Area of Trapezoid Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 class="main-title">Area of Trapezoid Calculator</h1>
+    <div class="input-section">
+      <p class="value-headers">a</p>
+      <input type="text" onfocus="this.value=''" value="Enter Value" id="a-input" name="Value of a">
+      <p class="value-headers">b</p>
+      <input type="text" onfocus="this.value=''" value="Enter Value" id="b-input" name="Value of b">
+      <p class="value-headers">h</p>
+      <input type="text" onfocus="this.value=''" value="Enter Value" id="h-input" name="Value of h">
+    </div>
+    <img src="./image/Screen Shot 2021-06-07 at 9.13.48 AM.png" alt="diagram of the area of a trapezoid" width="500px" id="main-image">
+    <div id="result-section">
+      <p id="result"><span id="a-result">a</span> + <span id="b-result">b</span> / 2 * <span id="h-result">h</span> = <span id="area-result"><em> area</em></span></p>
+    </div><br>
+    <button id="area-calculate">Calculate!</button>
+    <button id="recalculate">New Calculation?</button>
+    <script src="script.js"></script>
+  </body>
+</html>
