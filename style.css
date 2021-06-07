@@ -34,10 +34,23 @@
   text-align: center;
 }
 
-#main-image {
+.images-section {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width:725px;
+}
+
+#main-image {
+  width: 500px;
+  float: left;
+}
+
+#secondary-image {
+  position: relative;
+  top: 110px;
+  width: 200px;
+  float: left;
 }
 
 #a-input {
